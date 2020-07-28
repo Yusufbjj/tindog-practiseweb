@@ -38,6 +38,7 @@ a.navbar-brand{
 /* buttons */
 .download-button{
     margin: 5% 3% 5% 0;
+    font-size:250%;
 }
 
 .align-content-center{
@@ -158,6 +159,7 @@ h2{
 }
 .download-button2 {
     margin: 9% 2%;
+    font-size:300%;
 }
 
 
