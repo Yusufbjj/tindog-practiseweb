@@ -1,0 +1,223 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+   
+    
+    
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.nav-item{
+    padding: 0 30px;
+}
+.nav-link{
+    font-size:1.2rem ;
+    font-family: "montserrat-light";
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+a.navbar-brand{
+    font-size: 2.5rem;
+    
+    font-weight: bold;
+    font-family: "ubuntu";
+    text-shadow: -2px -1px 2px rgba(150, 150, 150, 1);
+
+}
+
+/* buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.align-content-center{
+    
+    padding-top:10% ;
+    text-shadow: -2px -1px 2px rgba(150, 150, 150, 1);
+    
+}
+
+img.dog{
+    transform:  rotate(25deg);
+    margin-top: 50px;
+    width: 70%;
+    position: absolute;
+   right: 30%;
+    
+    
+    
+
+}
+
+/* fa buttons */
+.fa{
+   font-size: 3rem;
+    color: salmon;
+    padding-bottom: 2rem;
+}
+.fa:hover {
+    color: #ff4c68;
+}
+#features{
+    padding: 7% 15% ;
+    background-color: white;
+    position: relative;
+    
+}
+.features-align {
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+/* testemonial section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: salmon;
+    color: #fff;
+}
+h2{
+    font-family: "montserrat-black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+.testemonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testemonial-image2{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: salmon;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo-press{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+/* cards */
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+.pricing-colomn{
+    padding: 3% 2%;
+    
+}
+
+@media (max-width:1028px) {
+    #title{
+        text-align:center ;
+    }
+
+
+    img.dog{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* call to action */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 15% 5%;
+}
+.cta-h3 {
+    font-family: "montserrat-black";
+    color: white;
+    font-size: 2.5rem;
+    
+    
+}
+.download-button2 {
+    margin: 9% 2%;
+}
+
+
+
+
+
+
+
+/* footer */
+
+#footer {
+    text-align: center;
+    padding: 10%;
+    background-color: #fff;
+}
+
+.copy{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.footer-icons{
+    padding: 3% 2%;
+    font-size: 70%;
+    
+}
+.footer-list{
+    display: inline;
+}
+
+.footer-list1{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+.footer{
+    text-align: center;
+    
+}
+
+
+
+.footer-icon:hover{
+    text-decoration: none;
+    color: red;
+}
+.footer-icon-twitter {
+    text-decoration: none;
+    color: lightskyblue;
+}
+.footer-icon-facebook{
+    color: blue;
+}
+.footer-icon-instagram{
+    color: rgba(233, 62, 32, 0.699);
+}
+.footer-icon-mail{
+    color: black;
+}
+
+
+
+
